@@ -223,6 +223,11 @@ strong {
   font-weight: bolder;
 }
 
+.smallcaps {
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
 small, .small {
   font-size: 0.875em;
 }
@@ -11079,7 +11084,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.07) 0%, rgba(0, 0, 0, 0.35) 75%, #000 100%), url("../assets/img/logo.png");
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.3) 75%, var(--bs-black) 100%), url("../assets/img/logo.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11123,7 +11128,7 @@ body {
 
 .about-section {
   padding-top: 10rem;
-  background: linear-gradient(to bottom, var(--bs-black) 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+  background: linear-gradient(to bottom, var(--bs-black) 0%, rgba(0, 0, 0, 0.9) 85%, rgba(0, 0, 0, 0.8) 100%);
 }
 .about-section p {
   margin-bottom: 5rem;
