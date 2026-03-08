@@ -325,6 +325,12 @@ svg {
     vertical-align: middle;
 }
 
+.vertikal{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 table {
     caption-side: bottom;
     border-collapse: collapse;
