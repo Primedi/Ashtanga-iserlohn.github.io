@@ -12754,6 +12754,10 @@ body {
     padding: 5rem 0 10rem;
 }
 
+.refs-section {
+    padding: 0 0 10rem;
+}
+
 .projects-section .featured-text {
     padding: 2rem;
 }
